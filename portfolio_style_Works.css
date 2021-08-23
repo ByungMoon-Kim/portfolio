@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.works_kind {
+  display: flex;
+  flex-direction: row;
+}
+.works_btn {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.works_box {
+  width: 300px;
+  height: 400px;
+  border-radius: 24px;
+  box-shadow: 2px 3px 5px 0;
+}
+.works_box_img {
+  width: 300px;
+  height: 300px;
+}
+.works_box_info {
+  padding: 10px;
+}
+.works_box_h1 {
+  font-size: 20px;
+}
+.works_box_p {
+  float: right;
+  padding: 10px;
+  font-size: 15px;
+}
+.works_img1 {
+  width: 300px;
+  height: 300px;
+  border-radius: 24px;
+  opacity: 0.5;
+}
+
+.works_img1:hover {
+  opacity: 1;
+  transition: opacity ease-out 1000ms;
+}
+
+/* 메뉴탭 풀 사이즈 */
+.works_img_menu_f {
+  width: 300px;
+  height: 50px;
+  border-radius: 24px;
+  opacity: 0.5;
+}
+.works_img_menu_f:hover {
+  opacity: 1;
+  transition: opacity ease-out 1000ms;
+}
+.works_box_p_menu_f {
+  float: right;
+  padding: 10px;
+  padding-top: 80px;
+  font-size: 15px;
+}
+
+.works_item1,
+.works_item2,
+.works_item3,
+.works_item4,
+.works_item5,
+.works_item6,
+.works_item7,
+.works_item8,
+.works_item9,
+.works_item10,
+.works_item11,
+.works_item12,
+.works_item13,
+.works_item14,
+.works_item15,
+.works_item16,
+.works_item17,
+.works_item18,
+.works_item19 {
+  padding: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .works_box {
+    width: 150px;
+    height: 250px;
+    border-radius: 24px;
+    box-shadow: 2px 3px 5px 0;
+  }
+  .works_box_img {
+    width: 150px;
+    height: 150px;
+  }
+  .works_box_info {
+    padding: 10px;
+  }
+  .works_box_h1 {
+    font-size: 20px;
+  }
+  .works_box_p {
+    float: right;
+    padding: 10px;
+    font-size: 15px;
+  }
+  .works_img1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 24px;
+    opacity: 0.5;
+  }
+  .works_img_menu_f {
+    width: 150px;
+    height: 50px;
+    border-radius: 24px;
+    opacity: 0.5;
+  }
+  .works_img_menu_f:hover {
+    opacity: 1;
+    transition: opacity ease-out 1000ms;
+  }
+  .works_box_p_menu_f {
+    float: right;
+    padding: 10px;
+    padding-top: 80px;
+    font-size: 15px;
+  }
+}

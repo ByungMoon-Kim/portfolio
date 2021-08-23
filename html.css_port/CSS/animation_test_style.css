@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "mulish", sans-serif;
+  background-color: gray;
+}
+.main_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+.loading {
+  width: 500px;
+  height: 216px;
+  background: #ffffff;
+}
+.loading-title {
+  position: relative;
+  top: 80px;
+  left: 210px;
+  font-size: 18px;
+  animation-duration: 1500ms;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-name: loading;
+}
+.progress-bar {
+  width: 300px;
+  height: 12px;
+  border-radius: 100px;
+  background-color: #e5eaef;
+  margin-top: 124px;
+  margin-left: 100px;
+  margin-bottom: 80px;
+}
+.progress-bar,
+.progress-bar-gauge {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 12px;
+  animation-name: moon;
+}
+.progress-bar-gauge {
+  position: absolute;
+  animation-duration: 1500ms;
+  animation-timing-function: ease-out;
+  animation-delay: 500ms;
+  animation-iteration-count: infinite;
+  border-radius: 100px;
+  background-color: #13ce66;
+  animation-name: moon;
+}
+
+@keyframes loading {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.5;
+  }
+}
+@keyframes moon {
+  from {
+    width: 0;
+    opacity: 0;
+  }
+  to {
+    width: 300px;
+    opacity: 1;
+  }
+}

@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  letter-spacing: -0.01em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.landing {
+  background-image: url("./assets/img-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.landing-title {
+  line-height: 1.25;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+.landing-title strong {
+  display: block;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: -0.01em;
+}
+
+.landing-link {
+  line-height: 1;
+  color: #ffffff;
+}
+
+.banner-title a {
+  color: #1f2d3d;
+}
+
+/* ▼ WHERE YOUR CODE BEGINS */
+.banner {
+  width: 1440px;
+  height: 80px;
+  background-color: #ffc82c;
+}
+.banner-title {
+  text-align: center;
+  padding-top: 28px;
+  font-size: 18px;
+}
+.landing {
+  width: 1440px;
+  height: 900px;
+  text-align: center;
+}
+.landing-title,
+.landing-link {
+  padding-top: 249px;
+}
+.landing-title {
+  font-size: 50px;
+}
+.landing-link {
+  display: block;
+  position: relative;
+  margin-top: 48px;
+  margin-left: 630px;
+  margin-bottom: 515px;
+  padding: 16px;
+  width: 180px;
+  height: 56px;
+  border: 1px solid white;
+  border-radius: 16px;
+  font-size: 18px;
+}
+@media screen and (max-width: 800px) {
+  .main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .banner {
+    position: absolute;
+    width: 375px;
+    height: 64px;
+    top: 603px;
+    background-color: #ffc82c;
+  }
+  .banner-title {
+    padding-top: 20px;
+    padding-right: 20px;
+  }
+  .landing {
+    width: 375px;
+    height: 667px;
+  }
+  .landing-title {
+    text-align: right;
+    margin-right: 20px;
+    font-size: 32px;
+  }
+}

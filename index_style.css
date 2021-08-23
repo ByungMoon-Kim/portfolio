@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+.top {
+  color: white;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.link_img {
+  position: absolute;
+  transform: translate();
+  top: 20px;
+  right: 20px;
+}
+.main_typing {
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+button {
+  position: absolute;
+  color: black;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90px;
+  height: 36px;
+  border-radius: 12px;
+  border: none;
+}
+a {
+  text-decoration: none;
+}
+.next_button:hover {
+  color: white;
+  background-color: black;
+  transition: color ease-out 1500ms;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .next_button:hover {
+    display: none;
+  }
+}

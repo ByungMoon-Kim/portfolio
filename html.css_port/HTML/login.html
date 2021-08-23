@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login_style.css">
+</head>
+<body>
+    <h1 class="welcome">
+        <a href="login.html">
+            <span>W</span><span>e</span><span>l</span><span>c</span><span>o</span><span>m</span><span>e</span>
+        </a>
+    </h1>    
+    <form action="#" method="GET" class="log_in">
+        <div>
+            <input class="border" type="text" id="user_id" placeholder="ID" onKeyPress="login_key();">
+        <div>  
+            <input class="border" type="password" id="user_password" placeholder=" Password"> 
+    </form>    
+        <p class="p">
+            <div><button type="button" onclick="var ID = prompt('아이디를 입력해주십시오')
+             if(ID === 'test')
+             var Password = prompt('비밀번호를 입력해주십시오')
+             if(Password === 'test2'){
+                alert('로그인에 성공하셨습니다')
+                alert('페이지로 이동합니다')
+             }
+             if(Password === 'test2'){
+                 location.href='portfolio.html'
+             }
+                else {
+                    alert('계정 정보가 틀립니다')
+             }" class="user_join" style="cursor:pointer;">Join</button></div>
+            <div><button type="button" onclick="alert('Sorry')" class="user_join" style="cursor:pointer;">Join Membership</button></div>
+        </p>
+    </div>
+    <script src="all_portfolio.js" text="text/JavaScript"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+a {
+  color: white;
+  text-decoration: none;
+}
+h1 {
+  margin: 50px;
+  font-size: 50px;
+}
+h1 span:first-child {
+  color: red;
+}
+h1 span:nth-child(2) {
+  color: orange;
+}
+h1 span:nth-child(3) {
+  color: yellow;
+}
+h1 span:nth-child(4) {
+  color: green;
+}
+h1 span:nth-child(5) {
+  color: blue;
+}
+h1 span:nth-child(6) {
+  color: navy;
+}
+h1 span:last-child {
+  color: purple;
+}
+.welcome {
+  text-align: center;
+  margin-top: 200px;
+}
+.log_in {
+  text-align: center;
+  position: relative;
+  margin-top: 20px;
+}
+input {
+  margin: 10px;
+}
+input:focus {
+  outline: none;
+}
+input:hover {
+  border: 2px solid skyblue;
+}
+.border {
+  border: 1px solid skyblue;
+  border-radius: 10px;
+  width: 250px;
+  height: 50px;
+}
+.p {
+  margin: 20px;
+}
+button:hover {
+  color: blue;
+}
+.user_join {
+  width: 200px;
+  height: 50px;
+  border: 2px solid skyblue;
+  border-radius: 5px;
+  margin: 5px;
+}
+button:focus {
+  outline: none;
+}

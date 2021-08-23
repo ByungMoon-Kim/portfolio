@@ -1,0 +1,465 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.skill {
+  height: 900px;
+  border-bottom: 1px solid black;
+}
+.skill_right_img {
+  float: right;
+  width: 700px;
+  height: 500px;
+  margin-top: 120px;
+  margin-right: 140px;
+}
+.skill_tree {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+.skill_brand_img {
+  width: 50px;
+  height: 50px;
+}
+.skill_bar {
+  width: 250px;
+  height: 15px;
+  border-radius: 16px;
+  background: #e5eaef;
+  margin-top: -20px;
+  margin-left: 150px;
+  font-size: 15px;
+}
+
+.skill_bar_gauge_HTML {
+  width: 250px;
+  height: 15px;
+  border-radius: 16px;
+  margin-top: -20px;
+  text-align: center;
+  opacity: 0;
+  animation-name: skill_gauge_hover_HTML;
+}
+.skill_bar_gauge_HTML:hover {
+  width: 180px;
+  height: 15px;
+  border-radius: 16px;
+  margin-top: -20px;
+  animation-duration: 1500ms;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+  animation-delay: 500ms;
+  border-radius: 100px;
+  background-color: #13ce66;
+  animation-name: skill_gauge_hover_HTML;
+}
+@keyframes skill_gauge_hover_HTML {
+  from {
+    width: 0;
+    opacity: 0;
+  }
+  to {
+    width: 180px;
+    opacity: 1;
+  }
+}
+/* .HTML_persent {
+  display: block;
+  margin-top: -20px;
+  margin-left: 420px;
+  opacity: 0;
+  opacity: 1;
+  color: black;
+  animation-duration: 2000ms;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+  animation-delay: 500ms;
+  animation-name: skill_hover_HTML_persent;
+}
+@keyframes skill_hover_HTML_persent {
+  from {
+    width: 0;
+    opacity: 0;
+  }
+  to {
+    width: 0;
+    opacity: 1;
+  }
+} */
+
+.skill_bar_gauge_CSS {
+  width: 250px;
+  height: 15px;
+  border-radius: 16px;
+  margin-top: -20px;
+  text-align: center;
+  opacity: 0;
+  animation-name: skill_gauge_hover_CSS;
+}
+.skill_bar_gauge_CSS:hover {
+  width: 140px;
+  height: 15px;
+  border-radius: 16px;
+  margin-top: -20px;
+  animation-duration: 1500ms;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+  animation-delay: 500ms;
+  border-radius: 100px;
+  background-color: #13ce66;
+  animation-name: skill_gauge_hover_CSS;
+}
+@keyframes skill_gauge_hover_CSS {
+  from {
+    width: 0;
+    opacity: 0;
+  }
+  to {
+    width: 140px;
+    opacity: 1;
+  }
+}
+/* .CSS_persent {
+  display: block;
+  margin-top: -20px;
+  margin-left: 420px;
+  opacity: 0;
+  opacity: 1;
+  color: black;
+  animation-duration: 2000ms;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+  animation-delay: 500ms;
+  animation-name: skill_hover_CSS_persent;
+}
+@keyframes skill_hover_CSS_persent {
+  from {
+    width: 0;
+    opacity: 0;
+  }
+  to {
+    width: 0;
+    opacity: 1;
+  }
+} */
+
+.skill_bar_gauge_JS {
+  width: 250px;
+  height: 15px;
+  border-radius: 16px;
+  margin-top: -20px;
+  text-align: center;
+  opacity: 0;
+  animation-name: skill_gauge_hover_JS;
+}
+.skill_bar_gauge_JS:hover {
+  width: 60px;
+  height: 15px;
+  border-radius: 16px;
+  margin-top: -20px;
+  animation-duration: 1500ms;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+  animation-delay: 500ms;
+  border-radius: 100px;
+  background-color: #13ce66;
+  animation-name: skill_gauge_hover_JS;
+}
+@keyframes skill_gauge_hover_JS {
+  from {
+    width: 0;
+    opacity: 0;
+  }
+  to {
+    width: 60px;
+    opacity: 1;
+  }
+}
+/* .JS_persent {
+  display: block;
+  margin-top: -20px;
+  margin-left: 420px;
+  opacity: 0;
+  opacity: 1;
+  color: black;
+  animation-duration: 2000ms;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+  animation-delay: 500ms;
+  animation-name: skill_hover_JS_persent;
+}
+@keyframes skill_hover_JS_persent {
+  from {
+    width: 0;
+    opacity: 0;
+  }
+  to {
+    width: 0;
+    opacity: 1;
+  }
+} */
+
+.skill_bar_gauge_PS {
+  width: 250px;
+  height: 15px;
+  border-radius: 16px;
+  margin-top: -20px;
+  text-align: center;
+  opacity: 0;
+  animation-name: skill_gauge_hover_PS;
+}
+.skill_bar_gauge_PS:hover {
+  width: 100px;
+  height: 15px;
+  border-radius: 16px;
+  margin-top: -20px;
+  animation-duration: 1500ms;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+  animation-delay: 500ms;
+  border-radius: 100px;
+  background-color: #13ce66;
+  animation-name: skill_gauge_hover_PS;
+}
+@keyframes skill_gauge_hover_PS {
+  from {
+    width: 0;
+    opacity: 0;
+  }
+  to {
+    width: 100px;
+    opacity: 1;
+  }
+}
+/* .PS_persent {
+  display: block;
+  margin-top: -20px;
+  margin-left: 420px;
+  opacity: 0;
+  opacity: 1;
+  color: black;
+  animation-duration: 2000ms;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+  animation-delay: 500ms;
+  animation-name: skill_hover_PS_persent;
+}
+@keyframes skill_hover_PS_persent {
+  from {
+    width: 0;
+    opacity: 0;
+  }
+  to {
+    width: 0;
+    opacity: 1;
+  }
+} */
+
+.skill_bar_gauge_AI {
+  width: 250px;
+  height: 15px;
+  border-radius: 16px;
+  margin-top: -20px;
+  text-align: center;
+  opacity: 0;
+  animation-name: skill_gauge_hover_AI;
+}
+.skill_bar_gauge_AI:hover {
+  width: 100px;
+  height: 15px;
+  border-radius: 16px;
+  margin-top: -20px;
+  animation-duration: 1500ms;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+  animation-delay: 500ms;
+  border-radius: 100px;
+  background-color: #13ce66;
+  animation-name: skill_gauge_hover_AI;
+}
+@keyframes skill_gauge_hover_AI {
+  from {
+    width: 0;
+    opacity: 0;
+  }
+  to {
+    width: 100px;
+    opacity: 1;
+  }
+}
+
+/* .AI_persent {
+  display: block;
+  margin-top: -20px;
+  margin-left: 420px;
+  opacity: 1;
+  color: black;
+  animation-duration: 2000ms;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+  animation-delay: 500ms;
+  animation-name: skill_hover_AI_persent;
+}
+@keyframes skill_hover_AI_persent {
+  from {
+    width: 0;
+    opacity: 0;
+  }
+  to {
+    width: 0;
+    opacity: 1;
+  }
+} */
+
+.skill_bar_gauge_Py {
+  width: 250px;
+  height: 15px;
+  border-radius: 16px;
+  margin-top: -20px;
+  text-align: center;
+  opacity: 0;
+  animation-name: skill_gauge_hover_Py;
+}
+.skill_bar_gauge_Py:hover {
+  width: 80px;
+  height: 15px;
+  border-radius: 16px;
+  margin-top: -20px;
+  animation-duration: 1500ms;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+  animation-delay: 500ms;
+  border-radius: 100px;
+  background-color: #13ce66;
+  animation-name: skill_gauge_hover_Py;
+}
+@keyframes skill_gauge_hover_Py {
+  from {
+    width: 0;
+    opacity: 0;
+  }
+  to {
+    width: 80px;
+    opacity: 1;
+  }
+}
+/* 
+.Py_persent {
+  display: block;
+  margin-top: -20px;
+  margin-left: 420px;
+  opacity: 1;
+  color: black;
+  animation-duration: 2000ms;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+  animation-delay: 500ms;
+  animation-name: skill_hover_Py_persent;
+}
+@keyframes skill_hover_Py_persent {
+  from {
+    width: 0;
+    opacity: 0;
+  }
+  to {
+    width: 0;
+    opacity: 1;
+  }
+} */
+
+.skill_bar_gauge_Draving {
+  width: 250px;
+  height: 15px;
+  border-radius: 16px;
+  margin-top: -20px;
+  opacity: 0;
+  text-align: center;
+  animation-name: skill_gauge_hover_Draving;
+}
+.skill_bar_gauge_Draving:hover {
+  width: 250px;
+  height: 15px;
+  border-radius: 16px;
+  margin-top: -20px;
+  animation-duration: 1500ms;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+  animation-delay: 500ms;
+  border-radius: 100px;
+  background-color: #13ce66;
+  animation-name: skill_gauge_hover_Draving;
+}
+@keyframes skill_gauge_hover_Draving {
+  from {
+    width: 0;
+    opacity: 0;
+  }
+  to {
+    width: 250px;
+    opacity: 1;
+  }
+}
+
+/* .Draving_persent {
+  display: block;
+  margin-top: -20px;
+  margin-left: 420px;
+  color: black;
+  opacity: 0;
+  animation-name: skill_hover_Draving_persent;
+}
+.Draving_persent:hover {
+  display: block;
+  margin-top: -20px;
+  margin-left: 420px;
+  color: black;
+  animation-duration: 2000ms;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+  animation-delay: 500ms;
+  animation-name: skill_hover_Draving_persent;
+}
+@keyframes skill_hover_Draving_persent {
+  from {
+    width: 0;
+    opacity: 0;
+  }
+  to {
+    width: 0;
+    opacity: 1;
+  }
+} */
+
+.skill_HTML,
+.skill_CSS,
+.skill_JavaScript,
+.skill_Photoshop,
+.skill_Illustrator,
+.skill_Python,
+.skill_Draving {
+  padding: 15px;
+  width: 500px;
+  height: 100px;
+  background: #ffffff;
+}
+.skill_bar {
+  margin-left: 180px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .skill_tree {
+    margin: 0px;
+    margin-top: 20px;
+  }
+  .skill_right_img {
+    display: none;
+  }
+}

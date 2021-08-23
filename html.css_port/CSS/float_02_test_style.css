@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+}
+body {
+  height: 100vh;
+  background-color: black;
+}
+h1 {
+  font-size: 16px;
+  line-height: 1.25;
+}
+strong {
+  font-size: 14px;
+  color: gray;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.user_profile {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.card_content h1 {
+  margin-bottom: 4px;
+}
+.card_content strong {
+  margin-bottom: 12px;
+  display: block;
+}
+.user_profile,
+.card_content {
+  float: left;
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  max-width: 560px;
+}
