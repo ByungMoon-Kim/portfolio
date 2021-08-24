@@ -2,7 +2,6 @@
 전체폰트
 1. 반응형으로 이미지사이즈 및 폰트사이즈 등 설정
 2. introdution탭 스크롤이벤트(스크롤시 이벤트생성), 피파 선수설정처럼 하기
-3. skill탭 이미지제작
 4. works탭 각 항목별 설명추가? */
 @font-face {
   src: url("../paybooc_font/paybooc ExtraBold.ttf");
@@ -121,7 +120,7 @@ a {
   transition: color ease-out 1000ms;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 400px) {
   #slide {
     height: 400px;
     position: relative;

@@ -15,32 +15,10 @@ html {
   padding-left: 20px;
   padding-top: 20px;
 }
-/* .fadein_fifa_card {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  opacity: 0;
-} */
-
 .fadein_fifa_card {
-  animation-name: fadein_fifa_card;
-  visibility: visible;
-  animation-fill-mode: both;
-  animation-duration: 2s;
-  animation-play-state: running;
-}
-@keyframes fadein_fifa_card {
-  0% {
-    opacity: 0;
-    transform: translateY(50%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateZ(50%);
-    width: 400px;
-    height: 600px;
-  }
+  width: 250px;
+  height: 350px;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 400px) {
 }

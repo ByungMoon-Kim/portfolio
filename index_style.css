@@ -43,8 +43,8 @@ a {
   transition: color ease-out 1500ms;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 400px) {
   .next_button:hover {
-    display: none;
+    background-color: white;
   }
 }
