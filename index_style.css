@@ -44,7 +44,7 @@ a {
 }
 
 @media (min-width: 320px) and (max-width: 400px) {
-  .next_button:hover {
-    background-color: white;
+  button {
+    color: white;
   }
 }
