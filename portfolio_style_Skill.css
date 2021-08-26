@@ -454,7 +454,7 @@ html {
 .skill_bar {
   margin-left: 180px;
 }
-@media all and (min-width: 480px) and (max-width: 767px) {
+@media all and (min-width: 280px) and (max-width: 480px) {
   .skill_tree {
     margin: 0px;
     margin-top: 20px;

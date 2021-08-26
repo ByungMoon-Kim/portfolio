@@ -120,7 +120,7 @@ a {
   transition: color ease-out 1000ms;
 }
 
-@media all and (min-width: 480px) and (max-width: 767px) {
+@media all and (min-width: 280px) and (max-width: 480px) {
   #slide {
     height: 400px;
     position: relative;
