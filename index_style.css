@@ -43,7 +43,7 @@ a {
   transition: color ease-out 1500ms;
 }
 
-@media (min-width: 300px) and (max-width: 480px) {
+@media all and (min-width: 480px) and (max-width: 767px) {
   button {
     color: white;
   }
