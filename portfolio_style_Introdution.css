@@ -15,10 +15,6 @@ html {
   padding-left: 20px;
   padding-top: 20px;
 }
-.fadein_fifa_card {
-  width: 250px;
-  height: 350px;
-}
 
 @media all and (min-width: 280px) and (max-width: 480px) {
 }

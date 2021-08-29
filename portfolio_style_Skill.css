@@ -461,5 +461,6 @@ html {
   }
   .skill_right_img {
     display: none;
+    opacity: 0;
   }
 }
