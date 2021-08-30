@@ -106,7 +106,7 @@ html {
   padding: 20px;
 }
 
-@media all and (min-width: 280px) and (max-width: 480px) {
+@media (max-width: 480px) {
   .works_box {
     width: 150px;
     height: 250px;
@@ -123,6 +123,7 @@ html {
   .works_box_h1 {
     font-size: 20px;
   }
+
   .works_box_p {
     float: right;
     padding: 10px;
