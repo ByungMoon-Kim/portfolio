@@ -11,6 +11,35 @@ html {
   height: 900px;
   border-bottom: 1px solid black;
 }
+.skill_percentInfo {
+  display: flex;
+  flex-direction: row;
+}
+.percent_h1 {
+  font-size: 15px;
+  padding-top: 10px;
+}
+.percent40 {
+  width: 150px;
+  height: 10px;
+  border-radius: 16px;
+  margin: 20px;
+  background: #e5eaef;
+}
+.percent70 {
+  width: 150px;
+  height: 10px;
+  border-radius: 16px;
+  margin: 20px;
+  background: #e5eaef;
+}
+.percent100 {
+  width: 150px;
+  height: 10px;
+  border-radius: 16px;
+  margin: 20px;
+  background: #e5eaef;
+}
 /* .skill_right_img {
   float: right;
   width: 700px;
@@ -447,9 +476,6 @@ html {
 .skill_Draving {
   padding: 15px;
   margin: 60px;
-  width: 500px;
-  height: 100px;
-  background: #ffffff;
 }
 .skill_bar {
   margin-left: 180px;
@@ -470,8 +496,5 @@ html {
   .skill_Draving {
     padding: 15px;
     margin: 5px;
-    width: 500px;
-    height: 100px;
-    background: #ffffff;
   }
 }
