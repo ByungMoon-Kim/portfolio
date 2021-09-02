@@ -17,7 +17,11 @@ html {
 }
 .percent_h1 {
   font-size: 15px;
-  padding-top: 10px;
+  margin-top: -20px;
+}
+.percent_h1_2 {
+  font-size: 15px;
+  margin-top: 15px;
 }
 .percent40 {
   width: 150px;

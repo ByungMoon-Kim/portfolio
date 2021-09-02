@@ -21,6 +21,9 @@ html {
   margin-top: -500px;
   font-size: 30px;
 }
+.first_profile {
+  margin-top: 20px;
+}
 
 @media (max-width: 480px) {
 }
