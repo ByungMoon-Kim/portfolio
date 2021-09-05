@@ -14,8 +14,12 @@ html {
 
 .skill_percent {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin: 20px;
+}
+.percent_h1 {
+  font-size: 15px;
+  margin-top: -50px;
 }
 .percent_progress_bar {
   width: 150px;
