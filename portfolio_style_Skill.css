@@ -11,38 +11,75 @@ html {
   height: 900px;
   border-bottom: 1px solid black;
 }
-.skill_percentInfo {
+
+.skill_percent {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  margin: 20px;
 }
-.percent_h1 {
-  font-size: 15px;
-  margin-top: -20px;
-}
-.percent_h1_2 {
-  font-size: 15px;
-  margin-top: 15px;
-}
-.percent40 {
+.percent_progress_bar {
   width: 150px;
   height: 10px;
   border-radius: 16px;
-  margin: 20px;
+  margin: 5px;
   background: #e5eaef;
 }
-.percent70 {
+.percent_progress_gauge40 {
+  width: 50px;
+  height: 10px;
+  border-radius: 16px;
+  animation-duration: 1500ms;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+  animation-delay: 500ms;
+  background-color: #13ce66;
+  animation-name: percent40;
+}
+@keyframes percent40 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50px;
+  }
+}
+.percent_progress_gauge70 {
+  width: 100px;
+  height: 10px;
+  border-radius: 16px;
+  animation-duration: 1500ms;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+  animation-delay: 500ms;
+  background-color: #13ce66;
+  animation-name: percent70;
+}
+@keyframes percent70 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100px;
+  }
+}
+.percent_progress_gauge100 {
   width: 150px;
   height: 10px;
   border-radius: 16px;
-  margin: 20px;
-  background: #e5eaef;
+  animation-duration: 1500ms;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+  animation-delay: 500ms;
+  background-color: #13ce66;
+  animation-name: percent100;
 }
-.percent100 {
-  width: 150px;
-  height: 10px;
-  border-radius: 16px;
-  margin: 20px;
-  background: #e5eaef;
+@keyframes percent100 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 150px;
+  }
 }
 /* .skill_right_img {
   float: right;
@@ -51,6 +88,7 @@ html {
   margin-top: 120px;
   margin-right: 140px;
 } */
+
 .skill_tree {
   display: flex;
   flex-direction: row;
@@ -479,7 +517,7 @@ html {
 .skill_Python,
 .skill_Draving {
   padding: 15px;
-  margin: 60px;
+  margin: 50px;
 }
 .skill_bar {
   margin-left: 180px;
