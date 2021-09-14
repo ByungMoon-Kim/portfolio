@@ -1,23 +1,38 @@
+// input submit 이벤트
+const loginInput = document.querySelector('.log-in-form');
+
+function onButtonEvent(def) {
+  def.preventDefault();
+    const id = prompt('js이벤트입니다 test를 입력해주세요')
+    if(id === 'test'){
+      alert('Awsome!')
+    } else {
+      alert('종료합니다.')
+    }
+}
+loginInput.addEventListener('submit', onButtonEvent);
+
+
+
 // login.html: button 클릭이벤트
-const btnJoin = document.querySelector('.user_join');
-const btnMember = document.querySelector('.user_join_Member');
+const btnJoin = document.querySelector('.user-join');
+const btnMember = document.querySelector('.user-sign');
 
 // login.html: join버튼 클릭이벤트
 function btnEvent(){
-  const id = prompt('js이벤트입니다 test를 입력해주세요')
-  if(id === 'test'){
-    alert('감사합니다! :)')
-  } else {
-    alert('종료합니다.')
-  }
+  alert('ID에서 로그인을 진행하여 주세요')
 }
 btnJoin.addEventListener('click', btnEvent)
 
-// login.html: Join Membership 클릭이벤트
+// // login.html: Join Membership 클릭이벤트
 function btnEvent2(){
   alert('준비 중 입니다.');
 }
 btnMember.addEventListener('click', btnEvent2);
+
+
+
+// js 공부 초기 시절
 // onclick="var ID = prompt('아이디를 입력해주십시오')
 // if(ID === 'test')
 // var Password = prompt('비밀번호를 입력해주십시오')
