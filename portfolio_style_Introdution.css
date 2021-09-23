@@ -24,6 +24,23 @@ html {
 .first_profile {
   margin-top: 20px;
 }
-
+.info-link {
+  animation-duration: 1500ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-delay: 500ms;
+  animation-name: info-link;
+}
+@keyframes info-link {
+  0% {
+    color: black;
+  }
+  50% {
+    color: rgb(138, 138, 138);
+  }
+  100% {
+    color: black;
+  }
+}
 @media (max-width: 480px) {
 }
