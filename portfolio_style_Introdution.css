@@ -31,6 +31,11 @@ html {
   animation-delay: 500ms;
   animation-name: info-link;
 }
+.introMySelf {
+  font-size: 15px;
+  float: right;
+  margin-top: 150px;
+}
 @keyframes info-link {
   0% {
     color: black;
