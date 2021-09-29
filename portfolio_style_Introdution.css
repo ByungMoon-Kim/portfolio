@@ -15,14 +15,18 @@ html {
   padding-left: 20px;
   padding-top: 20px;
 }
+.My-card {
+  margin-top: -80px;
+}
 .My_Profile {
   display: block;
   margin-left: 400px;
-  margin-top: -500px;
+  margin-top: -510px;
   font-size: 30px;
 }
 .first_profile {
   margin-top: 20px;
+  padding: 20px;
 }
 .info-link {
   animation-duration: 1500ms;
@@ -30,11 +34,6 @@ html {
   animation-iteration-count: infinite;
   animation-delay: 500ms;
   animation-name: info-link;
-}
-.introMySelf {
-  font-size: 15px;
-  float: right;
-  margin-top: 150px;
 }
 @keyframes info-link {
   0% {
@@ -47,5 +46,22 @@ html {
     color: black;
   }
 }
+.Mycareer {
+  position: absolute;
+  top: 220%;
+  left: 50%;
+  transform: translate(-50%, -220%);
+}
+.career-ul {
+  display: flex;
+  justify-content: space-between;
+}
+.C-cgv,
+.C-nara,
+.C-ht,
+.C-DND {
+  padding: 30px;
+}
+
 @media (max-width: 480px) {
 }
