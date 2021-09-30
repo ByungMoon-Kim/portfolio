@@ -1,34 +1,27 @@
-// input submit 이벤트
-const loginInput = document.querySelector('.log-in-form');
+// input keyup 활성화 이벤트
+const loginBtn = document.querySelector('.user-join')[3];
+const input = document.querySelector('input')[3];
+const loginId = document.querySelector('.id-input')[3];
+const loginPw = document.querySelector('.pw-input')[3];
 
-function onButtonEvent(def) {
-  def.preventDefault();
-    const id = prompt('js이벤트입니다 test를 입력해주세요')
-    if(id === 'test'){
-      alert('Awsome!')
-    } else {
-      alert('종료합니다.')
-    }
+function upColor() {
+  if(loginId.value && loginPw.value){ // id와 pw의 지정된 값을 받고
+    loginBtn.removeAttribute('disabled'); // loginBtn를 disabled를 삭제한뒤
+    loginBtn.style.backgroundColor="#0095F60"; // 조건이 모두 맞으면 loginBtn의 컬러를 변경
+  }
 }
-loginInput.addEventListener('submit', onButtonEvent);
-
+input.addEventListener('keyup', upColor);
 
 
 // login.html: button 클릭이벤트
-const btnJoin = document.querySelector('.user-join');
-const btnMember = document.querySelector('.user-sign');
+// const btnJoin = document.querySelector('.user-join');
+// const btnMember = document.querySelector('.user-sign');
 
-// login.html: join버튼 클릭이벤트
-function btnEvent(){
-  alert('ID에서 로그인을 진행하여 주세요')
-}
-btnJoin.addEventListener('click', btnEvent)
-
-// // login.html: Join Membership 클릭이벤트
-function btnEvent2(){
-  alert('준비 중 입니다.');
-}
-btnMember.addEventListener('click', btnEvent2);
+// // // login.html: Join Membership 클릭이벤트
+// function btnEvent2(){
+//   alert('준비 중 입니다.');
+// }
+// btnMember.addEventListener('click', btnEvent2);
 
 
 
