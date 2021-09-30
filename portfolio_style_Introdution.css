@@ -48,9 +48,9 @@ html {
 }
 .Mycareer {
   position: absolute;
-  top: 220%;
+  top: 200%;
   left: 50%;
-  transform: translate(-50%, -220%);
+  transform: translate(-50%, -200%);
 }
 .career-ul {
   display: flex;
