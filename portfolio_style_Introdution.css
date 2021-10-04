@@ -48,9 +48,9 @@ html {
 }
 .Mycareer {
   position: absolute;
-  top: 240%;
+  top: 170%;
   left: 50%;
-  transform: translate(-50%, -240%);
+  transform: translate(-50%);
 }
 .career-ul {
   display: flex;
@@ -62,6 +62,5 @@ html {
 .C-DND {
   padding: 30px;
 }
-
 @media (max-width: 480px) {
 }
