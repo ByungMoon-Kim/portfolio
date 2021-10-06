@@ -62,5 +62,22 @@ html {
 .C-DND {
   padding: 30px;
 }
+
+.C-cgv {
+  animation: fadein 3s;
+  -moz-animation: fadein 3s; /* 파이어폭스 */
+  -webkit-animation: fadein 3s; /* 사파리 & 크롬 */
+  -ms-animation: fadein 3s; /* IE */
+  -o-animation: fadein 3s; /* 오페라 */
+  animation-name: careerWorker;
+}
+@keyframes careerWorker {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 @media (max-width: 480px) {
 }
