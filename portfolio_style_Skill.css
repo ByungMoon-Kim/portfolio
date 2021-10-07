@@ -58,10 +58,15 @@ html {
   width: 100px;
   height: 10px;
   border-radius: 16px;
-  animation-duration: 1500ms;
-  animation-timing-function: ease-out;
+  animation: ease-out 1.5s;
   animation-iteration-count: infinite;
   animation-delay: 500ms;
+  -webkit-animation: ease-out 1.5s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: 500ms;
+  -ms-animation: ease-out 1.5s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-delay: 500ms;
   background-color: #13ce66;
   animation-name: percent70;
 }
@@ -77,10 +82,15 @@ html {
   width: 150px;
   height: 10px;
   border-radius: 16px;
-  animation-duration: 1500ms;
-  animation-timing-function: ease-out;
+  animation: ease-out 1.5s;
   animation-iteration-count: infinite;
   animation-delay: 500ms;
+  -webkit-animation: ease-out 1.5s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: 500ms;
+  -ms-animation: ease-out 1.5s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-delay: 500ms;
   background-color: #13ce66;
   animation-name: percent100;
 }

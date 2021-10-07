@@ -1,22 +1,25 @@
-/* 현재 남은 제일 큰 작업
-전체폰트
-1. 반응형으로 이미지사이즈 및 폰트사이즈 등 설정
-2. introdution탭 스크롤이벤트(스크롤시 이벤트생성), 피파 선수설정처럼 하기
-4. works탭 각 항목별 설명추가? */
 @font-face {
   src: url("../paybooc_font/paybooc ExtraBold.ttf");
   font-family: "all_font";
   font-weight: normal;
   font-style: normal;
+  -webkit-font-family: "all_font";
+  -ms-font-family: "all_font";
+  -webkit-font-weight: normal;
+  -ms-font-style: normal;
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "all_font";
+  -webkit-font-family: "all_font";
+  -ms-font-family: "all_font";
 }
 html {
   font-family: "all_font";
+  -webkit-font-family: "all_font";
+  -ms-font-family: "all_font";
   scroll-behavior: smooth;
 }
 ul.li {
