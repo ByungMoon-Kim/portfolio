@@ -1,24 +1,10 @@
-@font-face {
-  src: url("../paybooc_font/paybooc ExtraBold.ttf");
-  font-family: "all_font";
-  font-weight: normal;
-  font-style: normal;
-  -webkit-font-family: "all_font";
-  -ms-font-family: "all_font";
-  -webkit-font-weight: normal;
-  -ms-font-style: normal;
-}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  -webkit-font-family: "all_font";
-  -ms-font-family: "all_font";
 }
 html {
   scroll-behavior: smooth;
-  -webkit-font-family: "all_font";
-  -ms-font-family: "all_font";
 }
 
 .works_kind {
