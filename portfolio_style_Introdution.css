@@ -79,12 +79,13 @@ html {
   padding: 30px;
 }
 
-.C-cgv {
+.C-cgv:hover,
+.C-nara:hover,
+.C-ht:hover,
+.C-DND:hover {
   animation: fadein 3s;
-  -moz-animation: fadein 3s; /* 파이어폭스 */
   -webkit-animation: fadein 3s; /* 사파리 & 크롬 */
   -ms-animation: fadein 3s; /* IE */
-  -o-animation: fadein 3s; /* 오페라 */
   animation-name: careerWorker;
 }
 @keyframes careerWorker {
