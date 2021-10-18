@@ -164,6 +164,8 @@ html {
 .Mac_item1 {
   padding: 20px;
   animation: ease-in-out 1s;
+  -webkit-animation: ease-in-out 1s;
+  -ms-animation: ease-in-out 1s;
   animation-name: MacItem1;
 }
 @keyframes MacItem1 {
@@ -180,6 +182,8 @@ html {
 .Mac_item2 {
   padding: 20px;
   animation: ease-in-out 2s;
+  -webkit-animation: ease-in-out 2s;
+  -ms-animation: ease-in-out 2s;
   animation-name: MacItem2;
 }
 @keyframes MacItem2 {
@@ -199,6 +203,8 @@ html {
 .Mac_item3 {
   padding: 20px;
   animation: ease-in-out 3s;
+  -webkit-animation: ease-in-out 3s;
+  -ms-animation: ease-in-out 3s;
   animation-name: MacItem3;
 }
 @keyframes MacItem3 {
@@ -221,6 +227,8 @@ html {
 .Mac_item4 {
   padding: 20px;
   animation: ease-in-out 4s;
+  -webkit-animation: ease-in-out 4s;
+  -ms-animation: ease-in-out 4s;
   animation-name: MacItem4;
 }
 @keyframes MacItem4 {
@@ -246,6 +254,8 @@ html {
 .Mac_item5 {
   padding: 20px;
   animation: ease-in-out 5s;
+  -webkit-animation: ease-in-out 5s;
+  -ms-animation: ease-in-out 5s;
   animation-name: MacItem4;
 }
 @keyframes MacItem4 {
