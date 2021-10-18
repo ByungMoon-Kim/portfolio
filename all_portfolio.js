@@ -4,7 +4,7 @@ const habitus = document.querySelector('.C-ht');
 const dnd = document.querySelector('.C-DND');
 
 function cgvCareer(){
-        if(cgv){
+    if(cgv){
             cgv.innerText="2016.09.01 - 2019.09.28"
 }
 }
