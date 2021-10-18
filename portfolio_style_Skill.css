@@ -116,15 +116,6 @@ html {
   }
 }
 
-/* 현재는 미사용 이미지 */
-/* .skill_right_img {
-  float: right;
-  width: 700px;
-  height: 500px;
-  margin-top: 120px;
-  margin-right: 140px;
-} */
-
 .skill-help {
   font-size: 25px;
   margin-top: 30px;
@@ -188,29 +179,6 @@ html {
     opacity: 1;
   }
 }
-/* .HTML_persent {
-  display: block;
-  margin-top: -20px;
-  margin-left: 420px;
-  opacity: 0;
-  opacity: 1;
-  color: black;
-  animation-duration: 2000ms;
-  animation-timing-function: ease-out;
-  animation-iteration-count: infinite;
-  animation-delay: 500ms;
-  animation-name: skill_hover_HTML_persent;
-}
-@keyframes skill_hover_HTML_persent {
-  from {
-    width: 0;
-    opacity: 0;
-  }
-  to {
-    width: 0;
-    opacity: 1;
-  }
-} */
 
 .skill_bar_gauge_CSS {
   width: 250px;
@@ -249,29 +217,6 @@ html {
     opacity: 1;
   }
 }
-/* .CSS_persent {
-  display: block;
-  margin-top: -20px;
-  margin-left: 420px;
-  opacity: 0;
-  opacity: 1;
-  color: black;
-  animation-duration: 2000ms;
-  animation-timing-function: ease-out;
-  animation-iteration-count: infinite;
-  animation-delay: 500ms;
-  animation-name: skill_hover_CSS_persent;
-}
-@keyframes skill_hover_CSS_persent {
-  from {
-    width: 0;
-    opacity: 0;
-  }
-  to {
-    width: 0;
-    opacity: 1;
-  }
-} */
 
 .skill_bar_gauge_JS {
   width: 250px;
@@ -310,29 +255,6 @@ html {
     opacity: 1;
   }
 }
-/* .JS_persent {
-  display: block;
-  margin-top: -20px;
-  margin-left: 420px;
-  opacity: 0;
-  opacity: 1;
-  color: black;
-  animation-duration: 2000ms;
-  animation-timing-function: ease-out;
-  animation-iteration-count: infinite;
-  animation-delay: 500ms;
-  animation-name: skill_hover_JS_persent;
-}
-@keyframes skill_hover_JS_persent {
-  from {
-    width: 0;
-    opacity: 0;
-  }
-  to {
-    width: 0;
-    opacity: 1;
-  }
-} */
 
 .skill_bar_gauge_PS {
   width: 250px;
@@ -371,29 +293,6 @@ html {
     opacity: 1;
   }
 }
-/* .PS_persent {
-  display: block;
-  margin-top: -20px;
-  margin-left: 420px;
-  opacity: 0;
-  opacity: 1;
-  color: black;
-  animation-duration: 2000ms;
-  animation-timing-function: ease-out;
-  animation-iteration-count: infinite;
-  animation-delay: 500ms;
-  animation-name: skill_hover_PS_persent;
-}
-@keyframes skill_hover_PS_persent {
-  from {
-    width: 0;
-    opacity: 0;
-  }
-  to {
-    width: 0;
-    opacity: 1;
-  }
-} */
 
 .skill_bar_gauge_AI {
   width: 250px;
@@ -433,29 +332,6 @@ html {
   }
 }
 
-/* .AI_persent {
-  display: block;
-  margin-top: -20px;
-  margin-left: 420px;
-  opacity: 1;
-  color: black;
-  animation-duration: 2000ms;
-  animation-timing-function: ease-out;
-  animation-iteration-count: infinite;
-  animation-delay: 500ms;
-  animation-name: skill_hover_AI_persent;
-}
-@keyframes skill_hover_AI_persent {
-  from {
-    width: 0;
-    opacity: 0;
-  }
-  to {
-    width: 0;
-    opacity: 1;
-  }
-} */
-
 .skill_bar_gauge_Py {
   width: 250px;
   height: 15px;
@@ -493,29 +369,6 @@ html {
     opacity: 1;
   }
 }
-/* 
-.Py_persent {
-  display: block;
-  margin-top: -20px;
-  margin-left: 420px;
-  opacity: 1;
-  color: black;
-  animation-duration: 2000ms;
-  animation-timing-function: ease-out;
-  animation-iteration-count: infinite;
-  animation-delay: 500ms;
-  animation-name: skill_hover_Py_persent;
-}
-@keyframes skill_hover_Py_persent {
-  from {
-    width: 0;
-    opacity: 0;
-  }
-  to {
-    width: 0;
-    opacity: 1;
-  }
-} */
 
 .skill_bar_gauge_Draving {
   width: 250px;
@@ -555,36 +408,6 @@ html {
   }
 }
 
-/* .Draving_persent {
-  display: block;
-  margin-top: -20px;
-  margin-left: 420px;
-  color: black;
-  opacity: 0;
-  animation-name: skill_hover_Draving_persent;
-}
-.Draving_persent:hover {
-  display: block;
-  margin-top: -20px;
-  margin-left: 420px;
-  color: black;
-  animation-duration: 2000ms;
-  animation-timing-function: ease-out;
-  animation-iteration-count: infinite;
-  animation-delay: 500ms;
-  animation-name: skill_hover_Draving_persent;
-}
-@keyframes skill_hover_Draving_persent {
-  from {
-    width: 0;
-    opacity: 0;
-  }
-  to {
-    width: 0;
-    opacity: 1;
-  }
-} */
-
 .skill_HTML,
 .skill_CSS,
 .skill_JavaScript,
@@ -598,12 +421,59 @@ html {
 .skill_bar {
   margin-left: 180px;
 }
-@media (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 480px) {
+  .percent_progress_bar {
+    width: 100px;
+  }
+  .percent_progress_gauge40 {
+    width: 30px;
+  }
+  @keyframes percent40 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 40px;
+    }
+  }
+  .percent_progress_gauge70 {
+    width: 70px;
+  }
+  @keyframes percent70 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 70px;
+    }
+  }
+  .percent_progress_gauge100 {
+    width: 100px;
+  }
+  @keyframes percent100 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100px;
+    }
+  }
+
+  .skill-info {
+    display: block;
+    margin-top: 20px;
+  }
+  .percent_h1 {
+    display: inline;
+  }
   .skill_tree {
     margin: 0px;
     margin-top: 20px;
     display: flex;
     flex-direction: column;
+  }
+  .skill-help {
+    margin-top: 100px;
   }
   .skill_HTML,
   .skill_CSS,
