@@ -370,16 +370,16 @@ html {
   }
 }
 
-.skill_bar_gauge_Draving {
+/* .skill_bar_gauge_Vue {
   width: 250px;
   height: 15px;
   border-radius: 16px;
   margin-top: -20px;
   opacity: 0;
   text-align: center;
-  animation-name: skill_gauge_hover_Draving;
-}
-.skill_bar_gauge_Draving:hover {
+  animation-name: skill_gauge_hover_Vue;
+} */
+/* .skill_bar_gauge_Vue:hover {
   width: 250px;
   height: 15px;
   border-radius: 16px;
@@ -395,9 +395,9 @@ html {
   -ms-animation-delay: 500ms;
   border-radius: 100px;
   background-color: #13ce66;
-  animation-name: skill_gauge_hover_Draving;
+  animation-name: skill_gauge_hover_Vue;
 }
-@keyframes skill_gauge_hover_Draving {
+@keyframes skill_gauge_hover_Vue {
   from {
     width: 0;
     opacity: 0;
@@ -406,7 +406,7 @@ html {
     width: 250px;
     opacity: 1;
   }
-}
+} */
 
 .skill_HTML,
 .skill_CSS,
@@ -414,7 +414,7 @@ html {
 .skill_Photoshop,
 .skill_Illustrator,
 .skill_Python,
-.skill_Draving {
+.skill_Vue {
   padding: 15px;
   margin: 50px;
 }
@@ -481,7 +481,7 @@ html {
   .skill_Photoshop,
   .skill_Illustrator,
   .skill_Python,
-  .skill_Draving {
+  .skill_Vue {
     padding: 15px;
     margin: 5px;
   }

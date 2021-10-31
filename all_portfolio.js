@@ -3,6 +3,7 @@ const nara = document.querySelector('.C-nara');
 const habitus = document.querySelector('.C-ht');
 const dnd = document.querySelector('.C-DND');
 
+const body = document.querySelector('.Mycareer')
 function cgvCareer(){
     if(cgv){
             cgv.innerText="2016.09.01 - 2019.09.28"
